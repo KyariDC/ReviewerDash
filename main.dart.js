@@ -24549,7 +24549,7 @@ var $async$aiV=A.Y(function(b,c){if(b===1){o=c
 s=p}while(true)switch(s){case 0:p=4
 l=t.N
 s=7
-return A.a0(A.aGL(A.fH("https://3.129.127.32/update/plant_pre"),B.bw.j6(a),A.aA(["Content-Type","application/json"],l,l)),$async$aiV)
+return A.a0(A.aGL(A.fH("http://3.129.127.32/update/plant_pre"),B.bw.j6(a),A.aA(["Content-Type","application/json"],l,l)),$async$aiV)
 case 7:n=c
 l=n.b
 q=l
@@ -78316,7 +78316,7 @@ aG(){this.aY()
 this.S5()},
 oR(){this.ah(new A.a1v(this))},
 S5(){this.oR()
-A.asJ(A.fH("https://3.129.127.32/fetch_pre")).bS(new A.a1q(this),t.am)},
+A.asJ(A.fH("http://3.129.127.32/fetch_pre")).bS(new A.a1q(this),t.am)},
 abW(a){var s=J.mE(a,new A.a1o(),t.N)
 return A.al(s,!0,A.k(s).i("ba.E"))},
 N(a){var s,r,q,p,o,n,m,l,k=this,j=null,i="^\\d*\\.?\\d{0,2}",h=A.an_(A.h4(k.d,j,j,j,j,j,j))
@@ -78382,7 +78382,7 @@ $0(){var s,r=this.a
 r.oR()
 s=this.b
 r.ah(new A.a19(r,s))
-A.asJ(A.fH("https://3.129.127.32/fetch_pre/"+J.b5(s,"id"))).bS(new A.a1a(r),t.P)},
+A.asJ(A.fH("http://3.129.127.32/fetch_pre/"+J.b5(s,"id"))).bS(new A.a1a(r),t.P)},
 $S:0}
 A.a19.prototype={
 $0(){this.a.w=J.b5(this.b,"id")},
